@@ -1,0 +1,6 @@
+{
+  "name": "TypePair",
+  "description": "A typography tool for pairing Google Fonts and fine-tuning font scale, letter spacing, and line height to create beautiful text textures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
