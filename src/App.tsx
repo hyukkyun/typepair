@@ -4,6 +4,7 @@
  */
 
 import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header';
 import { FontInspector } from './components/FontInspector';
 import { TypographyPreview } from './components/TypographyPreview';
@@ -242,6 +243,7 @@ export default function App() {
           selectingRole={selectingRole}
         />
       )}
+      <Analytics />
     </div>
   );
 }
