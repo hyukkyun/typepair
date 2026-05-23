@@ -243,6 +243,22 @@ export default function App() {
           selectingRole={selectingRole}
         />
       )}
+      
+      {/* Footer (Left) */}
+      <div className={`fixed bottom-4 left-4 z-30 text-[10px] md:text-xs leading-relaxed opacity-60 hover:opacity-100 transition-opacity hidden md:block ${isDark ? 'text-zinc-400' : 'text-zinc-500'}`}>
+        <p className="mb-0.5">
+          made by <a href="https://instagram.com/beyondbetterbrand" target="_blank" rel="noopener noreferrer" className="underline font-medium hover:text-current">@beyondbetterbrand</a>
+        </p>
+        <p className="max-w-[300px]">
+          버그발견, 폰트추천, 제안 및 협업은 인스타그램 DM이나 <a href="mailto:beyondbetterbrand@gmail.com" className="underline hover:text-current">beyondbetterbrand@gmail.com</a> 으로 메일보내주세요.
+        </p>
+      </div>
+
+      {/* Footer (Right) */}
+      <div className={`fixed bottom-4 right-4 z-30 text-[10px] md:text-xs opacity-60 hover:opacity-100 transition-opacity hidden md:block ${isDark ? 'text-zinc-400' : 'text-zinc-500'}`}>
+        made by <a href="https://instagram.com/beyondbetterbrand" target="_blank" rel="noopener noreferrer" className="underline font-medium hover:text-current">@beyondbetterbrand</a>
+      </div>
+
       <Analytics />
     </div>
   );
